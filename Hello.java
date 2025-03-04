@@ -4,11 +4,11 @@ public class Hello{
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter n:");
 	int n=sc.nextInt();
-	int m=16;
-	if (n<=0){
-	   System.out.println("Invalid input!");
-	}else{
-	System.out.println(m+n);
+	for(int i=1; i<=n; i++){
+	    for(int j=1; j<=i; j++){
+		System.out.print("*");
+		}
+	System.out.println();
 	}
   }
 }
