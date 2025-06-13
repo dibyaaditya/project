@@ -21,6 +21,7 @@ public class Main{
 	char ch = 'A';
 	float f2 = sc.nextFloat();
 	double d2 = sc.nextDouble();
+	sc.nextLine();
 	String s1 = "Aditya Rout";
 	String s2 = sc.nextLine();
 	int num2 = 54;
