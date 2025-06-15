@@ -15,23 +15,31 @@ public class Main{
 	// System.out.println(args[2]);
 	// int num = (int)(69.75);
 	// System.out.println(num);
-	int num = sc.nextInt();
-	float fl = 56.77f;
-	double d = 6577.57;
-	char ch = 'A';
-	float f2 = sc.nextFloat();
-	double d2 = sc.nextDouble();
-	sc.nextLine();
-	String s1 = "Aditya Rout";
-	String s2 = sc.nextLine();
-	int num2 = 54;
-	int sum = num + num2;
-	System.out.println(num+"\n"+num2+"\n"+sum);
-	System.out.println(d+d2);
-	System.out.println(s1+"\n"+s2);
-	System.out.println(fl+f2);
-	System.out.println(ch);
-	sc.close();
+//	int num = sc.nextInt();
+//	float fl = 56.77f;
+//	double d = 6577.57;
+//	char ch = 'A';
+//	float f2 = sc.nextFloat();
+//	double d2 = sc.nextDouble();
+//	sc.nextLine();
+//	String s1 = "Aditya Rout";
+//	String s2 = sc.nextLine();
+//	int num2 = 54;
+//	int sum = num + num2;
+//	System.out.println(num+"\n"+num2+"\n"+sum);
+//	System.out.println(d+d2);
+//	System.out.println(s1+"\n"+s2);
+//	System.out.println(fl+f2);
+//	System.out.println(ch);
+//	sc.close();
+//	  for(int num = 1; num<=5; num+=1){
+//		  System.out.println(num);
+//	  }
+	  int num = sc.nextInt();
+	  for(int n=1; n<=num; n+=1){
+		  System.out.print(n);
+		  System.out.println(" Aditya");
+	  }
 
 
 	  }
