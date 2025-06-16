@@ -35,11 +35,23 @@ public class Main{
 //	  for(int num = 1; num<=5; num+=1){
 //		  System.out.println(num);
 //	  }
-	  int num = sc.nextInt();
-	  for(int n=1; n<=num; n+=1){
-		  System.out.print(n);
-		  System.out.println(" Aditya");
+//	  int num = sc.nextInt();
+//	  for(int n=1; n<=num; n+=1){
+//		  System.out.print(n);
+//		  System.out.println(" Aditya");
+//	  }
+	  int a = sc.nextInt();
+	  int b = sc.nextInt();
+	  int c = sc.nextInt();
+	  int max = a;
+	  if(b>max){
+		  max = b;
 	  }
+	  if(c>max){
+		  max = c;
+	  }
+
+	  System.out.println("maximum is "+max);
 
 
 	  }
