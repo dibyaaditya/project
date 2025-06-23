@@ -1,7 +1,9 @@
+package learn;
+
 import java.util.Scanner;
 public class Main{
   public static void main(String args[]){
-	   Scanner sc = new Scanner(System.in);
+	   Scanner in = new Scanner(System.in);
 	//   System.out.println("Enter the amount of water you drink per day in Litre:");
 	//   int ml = sc.nextInt();
 	//   if(ml==4){
@@ -40,19 +42,35 @@ public class Main{
 //		  System.out.print(n);
 //		  System.out.println(" Aditya");
 //	  }
-	  int a = sc.nextInt();
-	  int b = sc.nextInt();
-	  int c = sc.nextInt();
-	  int max = a;
-	  if(b>max){
-		  max = b;
+//	  int a = sc.nextInt();
+//	  int b = sc.nextInt();
+//	  int c = sc.nextInt();
+//	  int max = a;
+//	  if(b>max){
+//		  max = b;
+//	  }
+//	  if(c>max){
+//		  max = c;
+//	  }
+//
+//	  System.out.println("maximum is "+max);
+//	  System.out.println(Math.max(34,Math.max(7, 67)));
+//
+//	  char ch = sc.next().trim().charAt(0);
+//	  System.out.println(ch);
+
+	  int n = in.nextInt();
+	  int a = 0;
+	  int b = 1;
+	  int count = 2;
+	  while (count <= n){
+		  int temp = b;
+		  b = b + a;
+		  a = temp;
+		  count++;
+
 	  }
-	  if(c>max){
-		  max = c;
-	  }
-
-	  System.out.println("maximum is "+max);
-
-
+	  System.out.println(b);
+	  in.close();
 	  }
   }
