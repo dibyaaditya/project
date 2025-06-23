@@ -1,9 +1,0 @@
-*.class
-*.class
-.metadata/
-.project
-.classpath
-.settings/
-.idea/
-*.iml
-out/
