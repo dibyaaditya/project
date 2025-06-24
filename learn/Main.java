@@ -59,6 +59,8 @@ public class Main{
 //	  char ch = sc.next().trim().charAt(0);
 //	  System.out.println(ch);
 
+    //   Fibonacci Series
+	System.out.print("Enter the position of the Fibonacci Series : ");
 	  int n = in.nextInt();
 	  int a = 0;
 	  int b = 1;
@@ -70,7 +72,7 @@ public class Main{
 		  count++;
 
 	  }
-	  System.out.println(b);
+	  System.out.println("The number at that place is : "+b);
 	  in.close();
 	  }
   }
