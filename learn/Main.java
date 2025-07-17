@@ -3,7 +3,7 @@ package learn;
 import java.util.Scanner;
 public class Main{
   public static void main(String args[]){
-	   Scanner in = new Scanner(System.in);
+	//    Scanner in = new Scanner(System.in);
 	//   System.out.println("Enter the amount of water you drink per day in Litre:");
 	//   int ml = sc.nextInt();
 	//   if(ml==4){
@@ -60,19 +60,38 @@ public class Main{
 //	  System.out.println(ch);
 
     //   Fibonacci Series
-	System.out.print("Enter the position of the Fibonacci Series : ");
-	  int n = in.nextInt();
-	  int a = 0;
-	  int b = 1;
-	  int count = 2;
-	  while (count <= n){
-		  int temp = b;
-		  b = b + a;
-		  a = temp;
-		  count++;
+	// Scanner in = new Scanner(System.in);
+	// System.out.print("Enter the position of the Fibonacci Series : ");
+	//   int n = in.nextInt();
+	//   int a = 0;
+	//   int b = 1;
+	//   int count = 2;
+	//   while (count <= n){
+	// 	  int temp = b;
+	// 	  b = b + a;
+	// 	  a = temp;
+	// 	  count++;
 
-	  }
-	  System.out.println("The number at that place is : "+b);
-	  in.close();
+	//   }
+	//   System.out.println("The number at that place is : "+b);
+	//   in.close();
+
+	// LOOP QUESTIONS FROM BASIC LEVEL TO ADVANCE LEVEL
+
+	//Qn 1
+	// Print from  to 5
+	// for(int i=1; i<=5; i++){
+	// 	System.out.println(i);
+	// }
+
+	//Qn 2
+	//Print Even numbers from 1 to 20
+	// for(int i=2; i<=20; i=i+2){
+	// 	System.out.println(i);
+	// }
+
+	//Qn 3
+	//Sum of all numbers from 1 to 100
+	
 	  }
   }
